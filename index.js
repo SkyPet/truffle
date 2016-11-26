@@ -1,7 +1,7 @@
 var pkg = require("./package.json");
 
 module.exports = {
-  build: require("./lib/build"),
+  //build: require("./lib/build"),
   create: require("./lib/create"),
   compiler: require("./lib/compiler"),
   config: require("./lib/config"),
@@ -11,7 +11,7 @@ module.exports = {
   init: require("./lib/init"),
   migrate: require("./lib/migrate"),
   profile: require("./lib/profiler"),
-  serve: require("./lib/serve"),
+  //serve: require("./lib/serve"),
   test: require("./lib/test"),
   version: pkg.version
 };
